@@ -4,7 +4,7 @@
 
 ORG = imread('momiji.png'); % 画像の読み込み  
 ORG = rgb2gray(ORG); % 白黒濃淡画像に変換  
-imagesc(ORG); colormap(gray); colorbar; % 画像の表示
+imagesc(ORG); colormap(gray); colorbar; % 画像の表示 
 
 によって，原画像を読み込み白黒画像にし，カラーバーと共に表示した結果を図１に示す．
 
