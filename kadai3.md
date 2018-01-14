@@ -2,8 +2,8 @@
 
 「momiji.png」を原画像とする．この画像は縦533画像，横800画素による長方形のディジタルカラー画像である．
 
-ORG=imread('momiji.png'); % 原画像の入力
-ORG = rgb2gray(ORG); colormap(gray); colorbar;
+ORG=imread('momiji.png'); % 原画像の入力  
+ORG = rgb2gray(ORG); colormap(gray); colorbar;  
 imagesc(ORG); axis image; % 画像の表示
 
 によって，原画像を読み込み白黒画像にし，カラーバーと共に表示した結果を図１に示す．
